@@ -1,0 +1,43 @@
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 18/10/2023
+// Seção de Declarações 
+
+
+var
+
+
+             nome: caractere
+              valor1,valor2,valor3:  real
+              metas: real
+ 
+ 
+inicio
+           escreval ("Digite o seu nome: ")
+           leia(nome)
+           
+                escreva("Coloque valor 1: ")
+                leia(valor1)
+                escreva("Coloque valor 2: ")
+                leia(valor2)
+                escreva("Coloque valor 2: ")
+                leia(valor3)
+
+                metas <- (valor1 + valor2 + valor3)/3
+
+              se (metas>= 50) entao
+            escreva (nome, " ,Parabens," ,"a sua meta foi de: ", metas , "antingida com sucesso!")
+                         fimse
+             se (metas<= 20)    entao
+            escreva (nome, "não antingiu a meta")
+                    fimse
+            se (metas>= 21 ou 49)    entao
+            escreva (nome, "força!! você chega lá vice")
+               fimse
+            senao
+             se (metas<= 20)    entao
+            escreva (nome, "falta um pouco para atingir a meta!")
+            
+            fimse
+fimalgoritmo
